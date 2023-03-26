@@ -1101,7 +1101,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/labels?name=testowy ticket stworzony na potrzeby nowej organizacji&color=red&idBoard=642045d693c8dc981dd4efe7&key=761e4182915698c4073358523777a2e8&token=ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487",
+					"raw": "https://api.trello.com/1/cards/642046a64804823a560eb3d1/labels?color=red&key=761e4182915698c4073358523777a2e8&token=ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487&name=testowy ticket stworzony na potrzeby nowej organizacji",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -1110,20 +1110,14 @@
 					],
 					"path": [
 						"1",
+						"cards",
+						"642046a64804823a560eb3d1",
 						"labels"
 					],
 					"query": [
 						{
-							"key": "name",
-							"value": "testowy ticket stworzony na potrzeby nowej organizacji"
-						},
-						{
 							"key": "color",
 							"value": "red"
-						},
-						{
-							"key": "idBoard",
-							"value": "642045d693c8dc981dd4efe7"
 						},
 						{
 							"key": "key",
@@ -1132,6 +1126,11 @@
 						{
 							"key": "token",
 							"value": "ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487"
+						},
+						{
+							"key": "name",
+							"value": "testowy ticket stworzony na potrzeby nowej organizacji",
+							"type": "text"
 						}
 					]
 				}
