@@ -1232,8 +1232,41 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards/6420a26273740dd5494e5d34/labels?color=black&key=761e4182915698c4073358523777a2e8&token=ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487&name=testowy ticket stworzony na potrzeby nowej organizacji",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards",
+						"6420a26273740dd5494e5d34",
+						"labels"
+					],
+					"query": [
+						{
+							"key": "color",
+							"value": "black"
+						},
+						{
+							"key": "key",
+							"value": "761e4182915698c4073358523777a2e8"
+						},
+						{
+							"key": "token",
+							"value": "ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487"
+						},
+						{
+							"key": "name",
+							"value": "testowy ticket stworzony na potrzeby nowej organizacji"
+						}
+					]
+				}
 			},
 			"response": []
 		}
