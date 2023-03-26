@@ -971,174 +971,187 @@
 		},
 		{
 			"name": "Board3KursSDA",
-			"item": [],
+			"item": [
+				{
+					"name": "testowy ticket stworzony na potrzeby nowej organizacji",
+					"id": "708df907-2dec-4346-8c7b-7268d37afe10",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://api.trello.com/1/cards/642046a64804823a560eb3d1/labels?color=red&key=761e4182915698c4073358523777a2e8&token=ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487&name=testowy ticket stworzony na potrzeby nowej organizacji",
+							"protocol": "https",
+							"host": [
+								"api",
+								"trello",
+								"com"
+							],
+							"path": [
+								"1",
+								"cards",
+								"642046a64804823a560eb3d1",
+								"labels"
+							],
+							"query": [
+								{
+									"key": "color",
+									"value": "red"
+								},
+								{
+									"key": "key",
+									"value": "761e4182915698c4073358523777a2e8"
+								},
+								{
+									"key": "token",
+									"value": "ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487"
+								},
+								{
+									"key": "name",
+									"value": "testowy ticket stworzony na potrzeby nowej organizacji",
+									"type": "text"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "testowy ticket stworzony na potrzeby nowej organizacji",
+					"id": "0c8a77b0-f7ca-4913-b015-2c5b0196c720",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://api.trello.com/1/cards?idList=64204621af5becf3d666d401&key=761e4182915698c4073358523777a2e8&token=ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487",
+							"protocol": "https",
+							"host": [
+								"api",
+								"trello",
+								"com"
+							],
+							"path": [
+								"1",
+								"cards"
+							],
+							"query": [
+								{
+									"key": "idList",
+									"value": "64204621af5becf3d666d401"
+								},
+								{
+									"key": "key",
+									"value": "761e4182915698c4073358523777a2e8"
+								},
+								{
+									"key": "token",
+									"value": "ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Board3",
+					"id": "9eb7a2c0-8b4e-44d6-b562-180dabf4ce31",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://api.trello.com/1/boards/?name=KursSDA&key=761e4182915698c4073358523777a2e8&token=ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487",
+							"protocol": "https",
+							"host": [
+								"api",
+								"trello",
+								"com"
+							],
+							"path": [
+								"1",
+								"boards",
+								""
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "KursSDA"
+								},
+								{
+									"key": "key",
+									"value": "761e4182915698c4073358523777a2e8"
+								},
+								{
+									"key": "token",
+									"value": "ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TestowyTicket",
+					"id": "632c0ab3-31bb-4821-aa38-2ed36002ad4f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://api.trello.com/1/lists?name=TestowyTicket&idBoard=642045d693c8dc981dd4efe7&key=761e4182915698c4073358523777a2e8&token=ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487",
+							"protocol": "https",
+							"host": [
+								"api",
+								"trello",
+								"com"
+							],
+							"path": [
+								"1",
+								"lists"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "TestowyTicket"
+								},
+								{
+									"key": "idBoard",
+									"value": "642045d693c8dc981dd4efe7"
+								},
+								{
+									"key": "key",
+									"value": "761e4182915698c4073358523777a2e8"
+								},
+								{
+									"key": "token",
+									"value": "ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
 			"id": "ef6c4af6-1eb7-49ee-a66c-134fab2d99d1"
 		},
 		{
-			"name": "TestowyTicket",
-			"id": "632c0ab3-31bb-4821-aa38-2ed36002ad4f",
+			"name": "New Request",
+			"id": "cf3d46c6-6bb1-4748-830a-714bbb782a56",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "https://api.trello.com/1/lists?name=TestowyTicket&idBoard=642045d693c8dc981dd4efe7&key=761e4182915698c4073358523777a2e8&token=ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487",
-					"protocol": "https",
-					"host": [
-						"api",
-						"trello",
-						"com"
-					],
-					"path": [
-						"1",
-						"lists"
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "TestowyTicket"
-						},
-						{
-							"key": "idBoard",
-							"value": "642045d693c8dc981dd4efe7"
-						},
-						{
-							"key": "key",
-							"value": "761e4182915698c4073358523777a2e8"
-						},
-						{
-							"key": "token",
-							"value": "ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Board3",
-			"id": "9eb7a2c0-8b4e-44d6-b562-180dabf4ce31",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "https://api.trello.com/1/boards/?name=KursSDA&key=761e4182915698c4073358523777a2e8&token=ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487",
-					"protocol": "https",
-					"host": [
-						"api",
-						"trello",
-						"com"
-					],
-					"path": [
-						"1",
-						"boards",
-						""
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "KursSDA"
-						},
-						{
-							"key": "key",
-							"value": "761e4182915698c4073358523777a2e8"
-						},
-						{
-							"key": "token",
-							"value": "ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "testowy ticket stworzony na potrzeby nowej organizacji",
-			"id": "0c8a77b0-f7ca-4913-b015-2c5b0196c720",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "https://api.trello.com/1/cards?idList=64204621af5becf3d666d401&key=761e4182915698c4073358523777a2e8&token=ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487",
-					"protocol": "https",
-					"host": [
-						"api",
-						"trello",
-						"com"
-					],
-					"path": [
-						"1",
-						"cards"
-					],
-					"query": [
-						{
-							"key": "idList",
-							"value": "64204621af5becf3d666d401"
-						},
-						{
-							"key": "key",
-							"value": "761e4182915698c4073358523777a2e8"
-						},
-						{
-							"key": "token",
-							"value": "ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "testowy ticket stworzony na potrzeby nowej organizacji",
-			"id": "708df907-2dec-4346-8c7b-7268d37afe10",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "https://api.trello.com/1/cards/642046a64804823a560eb3d1/labels?color=red&key=761e4182915698c4073358523777a2e8&token=ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487&name=testowy ticket stworzony na potrzeby nowej organizacji",
-					"protocol": "https",
-					"host": [
-						"api",
-						"trello",
-						"com"
-					],
-					"path": [
-						"1",
-						"cards",
-						"642046a64804823a560eb3d1",
-						"labels"
-					],
-					"query": [
-						{
-							"key": "color",
-							"value": "red"
-						},
-						{
-							"key": "key",
-							"value": "761e4182915698c4073358523777a2e8"
-						},
-						{
-							"key": "token",
-							"value": "ATTA900a425d7c33f1b7147e0e67ac12486db7fc54140d7d4dbb87d83d4637b66f1f5A1BC487"
-						},
-						{
-							"key": "name",
-							"value": "testowy ticket stworzony na potrzeby nowej organizacji",
-							"type": "text"
-						}
-					]
-				}
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
