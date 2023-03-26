@@ -973,7 +973,7 @@
 			"name": "Board3KursSDA",
 			"item": [
 				{
-					"name": "testowy ticket stworzony na potrzeby nowej organizacji",
+					"name": "TestLabelka",
 					"id": "708df907-2dec-4346-8c7b-7268d37afe10",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
